@@ -146,10 +146,10 @@ def analyze_pitstop_duration():
 
 #-----------------------------------------------------------------------------------------------------------
 # Load data for analysis
-pit_stop_df = pd.read_csv(r'D:\F1 track record csv\pit_stops_1.csv')
-drivers_df = pd.read_csv(r'D:\F1 track record csv\drivers_1.csv')
-races_df = pd.read_csv(r'D:\F1 track record csv\races.csv')
-lap_time_df=pd.read_csv(r'D:\F1 track record csv\lap_times_1.csv')
+pit_stop_df = pd.read_csv(r'pit_stops_1.csv')
+drivers_df = pd.read_csv(r'drivers_1.csv')
+races_df = pd.read_csv(r'races.csv')
+lap_time_df=pd.read_csv(r'lap_times_1.csv')
 
 def lap_analysis():
         # Merge necessary tables
