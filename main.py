@@ -14,7 +14,7 @@ from references import references
 
 #st.set_page_config(layout="wide")
 
-img=Image.open(r'D:\F1 track record csv\formula1projectlogo.jfif')
+img=Image.open(r'formula1projectlogo.jfif')
 st.set_page_config(page_title='Formula 1 Data Science',page_icon=img)
 
 page_bg_img="""
@@ -65,7 +65,7 @@ st.markdown("""
 button_clicked = False
 
 # Load data for prediction
-data = pd.read_csv(r'D:\F1 track record csv\DriverPrediction.csv')
+data = pd.read_csv(r'DriverPrediction.csv')
 # Sidebar layout for buttons
 with st.sidebar:
     st.header('Navigation')
@@ -262,7 +262,7 @@ if not button_clicked:
         </div>
         """, unsafe_allow_html=True)
 
-    standings_df=pd.read_csv(r'D:\F1 track record csv\CurrentStanding.csv')
+    standings_df=pd.read_csv(r'CurrentStanding.csv')
     # Section for Driver Standings
     st.write("""
         <div id="driver-standings" style="padding: 20px;">
@@ -275,7 +275,7 @@ if not button_clicked:
     styled_html3 = f'<style>table.dataframe{{background-color:black; color:white; padding:10px;}}</style>{data_to_show3}'
     st.write(styled_html3, unsafe_allow_html=True)
 
-    standings_df2=pd.read_csv(r'D:\F1 track record csv\CurrentStanding2.csv')
+    standings_df2=pd.read_csv(r'CurrentStanding2.csv')
 
     # Section for Team Standings
     st.write("""
