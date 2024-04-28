@@ -1,10 +1,10 @@
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
-unlucky_df=pd.read_csv(r'D:\F1 track record csv\unlucky_driver.csv')
-youngwin_df=pd.read_csv(r'D:\F1 track record csv\youngest_race_win.csv')
-oldwin_df=pd.read_csv(r'D:\F1 track record csv\oldest_race_win.csv')
-nowin_df=pd.read_csv(r'D:\F1 track record csv\MostRaceWithoutWin.csv')
+unlucky_df=pd.read_csv(r'unlucky_driver.csv')
+youngwin_df=pd.read_csv(r'youngest_race_win.csv')
+oldwin_df=pd.read_csv(r'oldest_race_win.csv')
+nowin_df=pd.read_csv(r'MostRaceWithoutWin.csv')
 def historical():
 
     st.subheader('Youngest Driver to Win Race')
