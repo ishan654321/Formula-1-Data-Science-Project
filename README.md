@@ -11,8 +11,3 @@ This project is made from data taken from various resources largly from kaggle a
 
 - I have used Python(3.10.2) as a programming language, streamlit(1.33.0) framework for the website implementation as well as UI design.
 - Libraries like Pandas, Numpy, Matplotlib, PIL, Plotly is used for this project which adds value to our project by giving us option to use dataframe and various charts and graphs.
-
-# Remaining Work
-
-- About F1 section will be updated and will add new content.
-- References will be added.
