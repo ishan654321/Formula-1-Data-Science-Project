@@ -1,0 +1,5 @@
+﻿Model,R2 Value
+Polynomial Regression Degree=1 (Linear Regression),0.9562
+Decision Tree Regression,0.6731
+Polynomial Regression Degree=2,-4.478
+Polynomial Regression Degree=3,-34.289
