@@ -5,8 +5,8 @@ from sklearn.linear_model import LinearRegression
 #from sklearn.metrics import r2_score
 import matplotlib.pyplot as plt
 # Load data for prediction
-data_constructor=pd.read_csv(r'D:\F1 track record csv\ConstructorPrediction.csv')
-comparison_df=pd.read_csv(r'D:\F1 track record csv\regression_comparison.csv')
+data_constructor=pd.read_csv(r'ConstructorPrediction.csv')
+comparison_df=pd.read_csv(r'regression_comparison.csv')
 def predict_points(data):
 
     st.header('Prediction: F1 Driver Points for 2024 Season')
