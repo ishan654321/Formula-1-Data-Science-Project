@@ -126,7 +126,7 @@ def analyze_pitstop_duration():
     </div>
     """, unsafe_allow_html=True)
 
-    pitstop_winner_df=pd.read_csv(r'D:\F1 track record csv\DHL_Pitstop_Winners.csv')
+    pitstop_winner_df=pd.read_csv(r'DHL_Pitstop_Winners.csv')
     st.subheader('Analysis: DHL Fastest Pitstop Award Winners')
     plt.figure(figsize=(10, 4),facecolor='#463F41')
     ax = plt.axes()
