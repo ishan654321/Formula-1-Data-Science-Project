@@ -139,9 +139,9 @@ def constructor_analysis():
     """, unsafe_allow_html=True)
 
     # Read the constructor standings data for 2023 and 2022
-    constructor_2023 = pd.read_csv(r'D:\F1 track record csv\Constructor_Championship_2023.csv')
-    constructor_2022 = pd.read_csv(r'D:\F1 track record csv\Constructor_Championship_2022.csv')
-    constructor_2021 = pd.read_csv(r'D:\F1 track record csv\Constructor_Championship_2021.csv')
+    constructor_2023 = pd.read_csv(r'Constructor_Championship_2023.csv')
+    constructor_2022 = pd.read_csv(r'Constructor_Championship_2022.csv')
+    constructor_2021 = pd.read_csv(r'Constructor_Championship_2021.csv')
 
     # Display the subheaders
     st.subheader('Constructor Standings 2023 vs 2022 vs 2021 for Podium')
