@@ -43,6 +43,7 @@ color: rgb(256,256,256);
 }
 [data-testid="baseButton-secondary"]{
 color: rgb(0,0,0)  
+background-color: rgb(255,255,255)
 }
 [data-testid="collapsedControl"]{
 color: rgb(255,255,255)
