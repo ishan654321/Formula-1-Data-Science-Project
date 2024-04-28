@@ -178,7 +178,7 @@ def constructor_analysis():
     with col3:
         plot_pie_chart_point(constructor_2021, "Constructor Standings (2021)")
   
-    consTitle_df=pd.read_csv(r'D:\F1 track record csv\Constructor_Titles.csv')
+    consTitle_df=pd.read_csv(r'Constructor_Titles.csv')
      # Create labels with constructor names and podium counts
     labels = [f"{Constructor} ({Titles})" for Constructor, Titles in zip(consTitle_df['Constructor'], consTitle_df['Titles'])]
     with plt.style.context({'axes.facecolor': 'black', 'figure.facecolor': '#F3DC7A'}):
