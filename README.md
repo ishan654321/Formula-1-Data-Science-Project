@@ -6,6 +6,7 @@ This project is made from data taken from various resources largly from kaggle a
 - I have also used linear regression model for the prediction of 2024 driver points table.
 - Basic information is added to explain someone new to F1.
 - Track information, driver information and construction information is added in this project.
+- Two Tableau dashboards are also embedded in this website related to Constructor and Driver analysis.
 
 # Technology used
 
