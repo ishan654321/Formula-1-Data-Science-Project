@@ -61,7 +61,10 @@ def yearanalysis():
             margin=dict(l=40, r=40, t=80, b=40),
             hovermode='closest',
             plot_bgcolor='white',
-            paper_bgcolor='white'
+            paper_bgcolor='white',
+            font=dict(
+            color="rgb(11, 0, 214)"
+        )
         )
 
     # Display the plot
@@ -109,7 +112,7 @@ def yearanalysis():
             plot_bgcolor='white',
             paper_bgcolor='white',
             font=dict(
-            color="black"
+            color="rgb(11, 0, 214)"
         )
         )
     
@@ -142,7 +145,7 @@ def yearanalysis():
             plot_bgcolor='white',
             paper_bgcolor='white',
             font=dict(
-            color="black"
+            color="rgb(11, 0, 214)"
         )
         )
     
@@ -177,7 +180,7 @@ def yearanalysis():
             plot_bgcolor='white',
             paper_bgcolor='white',
             font=dict(
-            color="black"
+            color="rgb(11, 0, 214)"
         )
         )
     
