@@ -60,7 +60,8 @@ def yearanalysis():
             ),
             margin=dict(l=40, r=40, t=80, b=40),
             hovermode='closest',
-            plot_bgcolor='white'
+            plot_bgcolor='white',
+            paper_bgcolor='white
         )
 
     # Display the plot
@@ -105,7 +106,8 @@ def yearanalysis():
             ),
             margin=dict(l=40, r=40, t=80, b=40),
             hovermode='closest',
-            plot_bgcolor='white'
+            plot_bgcolor='white',
+            paper_bgcolor='white
         )
     
     # Display the plot
@@ -134,7 +136,8 @@ def yearanalysis():
             ),
             margin=dict(l=40, r=40, t=80, b=40),
             hovermode='closest',
-            plot_bgcolor='white'
+            plot_bgcolor='white',
+            paper_bgcolor='white
         )
     
     # Display the plot
@@ -165,7 +168,8 @@ def yearanalysis():
             ),
             margin=dict(l=40, r=40, t=80, b=40),
             hovermode='closest',
-            plot_bgcolor='white'
+            plot_bgcolor='white',
+            paper_bgcolor='white'
         )
     
     # Display the plot
