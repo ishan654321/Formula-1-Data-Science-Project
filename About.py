@@ -20,7 +20,7 @@ def about():
     st.subheader('Telemetry')
     st.write("""
         <div style="background-color: #FFFFFF; padding: 10px;">
-            <span style="color: black;">\n\nFormula 1 car contains lots of amazing technologies. For an instance they put nearly <b>300 sensors</b> to get live data from various parts of the to collect data related to <b>temperature, pressure, speed, torque, inertia, displacement</b> and many more. This sensors are connected through <b>analog</b> or <b>ECU</b> (Electronic Control Unit) or network buses. This data can be in form of video, audio, images and bytes of other data. Generally total data collected throughout the weekend is in terabytes but the important data which is actually around <b>30 megabytes</b> and after finishing the race it can be up to <b>60 megabytes</b>. This sensors and multiple equipments which are needed are not available elsewhere it is made by them according to their requirements. </span>
+            <span style="color: black;">\n\nTelemetry analysis is very crucial for teams and drivers. It is a <b>wireless transmission</b> of data to the team from the sensors of the car. This telemetry shows 6 different values concurrently. First is <b>speed</b>, second is <b>RPM</b>, third is <b>Throttle</b>, fourth is <b>brake</b>, fifth is <b>DRS</b> an sometimes their comparison with driver around as a sixth component. This order will be different for different teams. Total length of telemetry on x-axis shows the <b>length of the track.</b> </span>
         </div>
         """, unsafe_allow_html=True)
     st.markdown('<img src="https://miro.medium.com/v2/resize:fit:2000/1*4iys-zDXVIWoeiLOsLovfw.png" width="700" height="560"/>',unsafe_allow_html=True)
