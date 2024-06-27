@@ -172,20 +172,6 @@ if not button_clicked:
             <p>Don't miss out on the excitement! Check out the schedule for upcoming Formula 1 races:</p>
             <div style="display: flex; flex-wrap: wrap;background-color: #000000;">
                 <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>Canada GP</strong><br>
-                    7-9 June
-                </div>
-                <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>Spain GP</strong><br>
-                    21-23 June
-                </div>
-                <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>Austria GP</strong><br>
-                    28-30 June
-                </div>
-            </div>
-            <div style="display: flex; flex-wrap: wrap;background-color: #000000;">
-                <div style="flex: 0 0 33.33%; padding: 10px;">
                     <strong>British GP</strong><br>
                     5-7 July
                 </div>
