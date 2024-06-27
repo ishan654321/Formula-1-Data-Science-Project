@@ -7,7 +7,7 @@ def about():
             <span style="color: black;">\n\nFormula 1 car contains lots of amazing technologies. For an instance they put nearly <b>300 sensors</b> to get live data from various parts of the to collect data related to <b>temperature, pressure, speed, torque, inertia, displacement</b> and many more. This sensors are connected through <b>analog</b> or <b>ECU</b> (Electronic Control Unit) or network buses. This data can be in form of video, audio, images and bytes of other data. Generally total data collected throughout the weekend is in terabytes but the important data which is actually around <b>30 megabytes</b> and after finishing the race it can be up to <b>60 megabytes</b>. This sensors and multiple equipments which are needed are not available elsewhere it is made by them according to their requirements. </span>
         </div>
         """, unsafe_allow_html=True)
-    st.markdown('<img src="https://media.licdn.com/dms/image/D4D12AQGysyH266dWfg/article-inline_image-shrink_1000_1488/0/1705143651319?e=1718841600&v=beta&t=2OilZhCqP-z8WFrM_Kgen4GcwW8mFSVoJhVhGzO_PNM" width="700" height="370"/>',unsafe_allow_html=True)
+    st.markdown('<img src="https://formula1technical.weebly.com/uploads/3/8/3/5/38357061/8397978_orig.png"/>',unsafe_allow_html=True)
     
     st.subheader('Steering')
     st.write("""
