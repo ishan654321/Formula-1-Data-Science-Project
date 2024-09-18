@@ -172,34 +172,6 @@ if not button_clicked:
             <p>Don't miss out on the excitement! Check out the schedule for upcoming Formula 1 races:</p>
             <div style="display: flex; flex-wrap: wrap;background-color: #000000;">
                 <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>British GP</strong><br>
-                    5-7 July
-                </div>
-                <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>Hungary GP</strong><br>
-                    19-21 July
-                </div>
-                <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>Belgium GP</strong><br>
-                    26-28 July
-                </div>
-            </div>
-            <div style="display: flex; flex-wrap: wrap;background-color: #000000;">
-                <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>Netherlands GP</strong><br>
-                    23-25 August
-                </div>
-                <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>Italy GP</strong><br>
-                    30-1 Aug/Sep
-                </div>
-                <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>Azerbaijan GP</strong><br>
-                    13-15 September
-                </div>
-            </div>
-            <div style="display: flex; flex-wrap: wrap;background-color: #000000;">
-                <div style="flex: 0 0 33.33%; padding: 10px;">
                     <strong>Singapore GP</strong><br>
                     20-22 September
                 </div>
