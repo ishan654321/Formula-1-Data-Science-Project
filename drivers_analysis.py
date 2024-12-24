@@ -7,7 +7,7 @@ def drivers():
     st.markdown('<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMzr04q9oTmMRu-v3so8-epYYnhVOJrfwIfB5tmss3kAa4K-4THhwvb6X4UHaDcPccNlg&usqp=CAU" width="700" height="400"/>',unsafe_allow_html=True)
     st.write("""
     <div style="background-color: #6D1B07; padding: 2px;">
-        <span style="color: white;">\n\nNationality: Netherlands, Belgiaum \n\nCurrent Team: RedBull\n\nAge: 26\n\nFirst Race : 2015 Australian Grand Prix\n\nRace wins : 58\n\nChampionship wins: 3</span>
+        <span style="color: white;">\n\nNationality: Netherlands, Belgiaum \n\nCurrent Team: RedBull\n\nAge: 26\n\nFirst Race : 2015 Australian Grand Prix\n\nRace wins : 63\n\nChampionship wins: 4</span>
     </div>
     """, unsafe_allow_html=True)
 
@@ -23,7 +23,7 @@ def drivers():
     st.markdown('<img src="https://img.bleacherreport.net/img/images/photos/003/892/492/hi-res-bc8b18b227c88edb6967842beb9144cd_crop_north.jpg?1605453461&w=3072&h=2048" width="700" height="400"/>',unsafe_allow_html=True)
     st.write("""
     <div style="background-color: #6D1B07; padding: 2px;">
-        <span style="color: white;">\n\nNationality: British \n\nCurrent Team: Mercedes\n\nAge: 39\n\nFirst Race : 2007 Australian Grand Prix\n\nRace wins : 103\n\nChampionship wins: 7</span>
+        <span style="color: white;">\n\nNationality: British \n\nCurrent Team: Mercedes\n\nAge: 39\n\nFirst Race : 2007 Australian Grand Prix\n\nRace wins : 105\n\nChampionship wins: 7</span>
     </div>
     """, unsafe_allow_html=True)
     
@@ -31,7 +31,7 @@ def drivers():
     st.markdown('<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi1Ca-OEr95y_YFh6e8vAKF7LNVpGmOEiTPDmucdwgcQ&s" width="700" height="400"/>',unsafe_allow_html=True)
     st.write("""
     <div style="background-color: #6D1B07; padding: 2px;">
-        <span style="color: white;">\n\nNationality: British \n\nCurrent Team: Mercedes\n\nAge: 26\n\nFirst Race : 2019 Australian Grand Prix\n\nRace wins : 1\n\nChampionship wins: 0</span>
+        <span style="color: white;">\n\nNationality: British \n\nCurrent Team: Mercedes\n\nAge: 26\n\nFirst Race : 2019 Australian Grand Prix\n\nRace wins : 3\n\nChampionship wins: 0</span>
     </div>
     """, unsafe_allow_html=True)
 
@@ -40,7 +40,7 @@ def drivers():
     st.markdown('<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbpobIvlZR8-W-ZC89ZPDlBsf_rh7NjiilJndpyBhZhw&s" width="700" height="400"/>',unsafe_allow_html=True)
     st.write("""
     <div style="background-color: #6D1B07; padding: 2px;">
-        <span style="color: white;">\n\nNationality: Monaco \n\nCurrent Team: Ferrari\n\nAge: 26\n\nFirst Race : 2018 Australian Grand Prix\n\nRace wins : 5\n\nChampionship wins: 0</span>
+        <span style="color: white;">\n\nNationality: Monaco \n\nCurrent Team: Ferrari\n\nAge: 26\n\nFirst Race : 2018 Australian Grand Prix\n\nRace wins : 8\n\nChampionship wins: 0</span>
     </div>
     """, unsafe_allow_html=True)
 
@@ -49,7 +49,7 @@ def drivers():
     st.markdown('<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT2Eqz0QkDPHWIslMUtAMr7q8apaAO7OMetTmf8BSlOA&s" width="700" height="400"/>',unsafe_allow_html=True)
     st.write("""
     <div style="background-color: #6D1B07; padding: 2px;">
-        <span style="color: white;">\n\nNationality: Spain \n\nCurrent Team: Ferrari\n\nAge: 29\n\nFirst Race : 2015 Australian Grand Prix\n\nRace wins : 3\n\nChampionship wins: 0</span>
+        <span style="color: white;">\n\nNationality: Spain \n\nCurrent Team: Ferrari\n\nAge: 29\n\nFirst Race : 2015 Australian Grand Prix\n\nRace wins : 4\n\nChampionship wins: 0</span>
     </div>
     """, unsafe_allow_html=True)
 
@@ -57,7 +57,7 @@ def drivers():
     st.markdown('<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeE1A7rcSRTtTa26hkfVRSchx7iQaPl1E6ZnR55UFM0g&s" width="700" height="400"/>',unsafe_allow_html=True)
     st.write("""
     <div style="background-color: #6D1B07; padding: 2px;">
-        <span style="color: white;">\n\nNationality: British \n\nCurrent Team: McLaren\n\nAge: 24\n\nFirst Race : 2019 Australian Grand Prix\n\nRace wins : 0\n\nChampionship wins: 0</span>
+        <span style="color: white;">\n\nNationality: British \n\nCurrent Team: McLaren\n\nAge: 24\n\nFirst Race : 2019 Australian Grand Prix\n\nRace wins : 4\n\nChampionship wins: 0</span>
     </div>
     """, unsafe_allow_html=True)
     
@@ -65,7 +65,7 @@ def drivers():
     st.markdown('<img src="https://i.ytimg.com/vi/kTW24dOhxoU/maxresdefault.jpg" width="700" height="400"/>',unsafe_allow_html=True)
     st.write("""
     <div style="background-color: #6D1B07; padding: 2px;">
-        <span style="color: white;">\n\nNationality: Australian \n\nCurrent Team: McLaren\n\nAge: 23\n\nFirst Race : 2023 Bahrain Grand Prix\n\nRace wins : 0\n\nChampionship wins: 0</span>
+        <span style="color: white;">\n\nNationality: Australian \n\nCurrent Team: McLaren\n\nAge: 23\n\nFirst Race : 2023 Bahrain Grand Prix\n\nRace wins : 2\n\nChampionship wins: 0</span>
     </div>
     """, unsafe_allow_html=True)
   
