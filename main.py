@@ -150,7 +150,6 @@ if not button_clicked:
         <div style="text-align: center;">
             <h3>Explore Our Insights:</h3>
             <a href="#latest-news" style="text-decoration: none;"><button style="background-color: #6D1B07; color: white; padding: 10px 20px; margin: 10px; border: none; border-radius: 5px;">Latest News</button></a>
-            <a href="#upcoming-races" style="text-decoration: none;"><button style="background-color: #6D1B07; color: white; padding: 10px 20px; margin: 10px; border: none; border-radius: 5px;">Upcoming Races</button></a>
             <a href="#driver-standings" style="text-decoration: none;"><button style="background-color: #6D1B07; color: white; padding: 10px 20px; margin: 10px; border: none; border-radius: 5px;">Driver Standings</button></a>
             <a href="#team-standings" style="text-decoration: none;"><button style="background-color: #6D1B07; color: white; padding: 10px 20px; margin: 10px; border: none; border-radius: 5px;">Team Standings</button></a>
         </div>
@@ -162,48 +161,6 @@ if not button_clicked:
             <h2>Latest News</h2>
             <p style="background-color: #000000; color: #ffffff;">Stay updated with the most recent news and developments in the world of Formula 1 racing.</p>
             <p style="background-color: #000000; color: #ffffff;">For the latest news, visit <a href="https://www.formula1.com/en/latest/all" target="_blank">Formula1.com</a>.</p>
-        </div>
-        """, unsafe_allow_html=True)
-
-    # Section for Upcoming Races
-    st.write("""
-        <div id="upcoming-races" style="padding: 20px; ">
-            <h2>Upcoming Races</h2>
-            <p>Don't miss out on the excitement! Check out the schedule for upcoming Formula 1 races:</p>
-            <div style="display: flex; flex-wrap: wrap;background-color: #000000;">
-                <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>Singapore GP</strong><br>
-                    20-22 September
-                </div>
-                <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>US GP</strong><br>
-                    18-20 October
-                </div>
-                <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>Mexico GP</strong><br>
-                    25-27 October
-                </div>
-            </div>
-            <div style="display: flex; flex-wrap: wrap;background-color: #000000;">
-                <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>Brazil GP</strong><br>
-                    1-3 November
-                </div>
-                <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>Las Vegas GP</strong><br>
-                    21-23 November
-                </div>
-                <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>Qatar GP</strong><br>
-                    29-1 Nov/Dec
-                </div>
-            </div>
-            <div style="display: flex; flex-wrap: wrap;background-color: #000000;">
-                <div style="flex: 0 0 33.33%; padding: 10px;">
-                    <strong>Abu Dhabi GP</strong><br>
-                    6-8 December
-                </div>
-            </div>
         </div>
         """, unsafe_allow_html=True)
 
