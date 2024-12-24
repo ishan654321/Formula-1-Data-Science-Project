@@ -2,7 +2,7 @@ driverId,driverRef,driverRating,carRating,constructorStrategy,2021_points,2021_s
 1,hamilton,75,75,50,387.5,2,240,6,234,7,223
 4,alonso,80,80,75,81,10,81,9,206,9,70
 806,hulkenberg,70,40,30,4,19,0,19,9,16,41
-815,perez,65,75,95,190,4,305,3,285,2,152
+815,perez,55,75,95,190,4,305,3,285,2,152
 817,ricciardo,50,20,35,115,8,37,11,6,17,12
 822,bottas,50,5,5,226,3,49,10,10,19,0
 825,kevin_magnussen,50,40,30,14,16,25,13,3,15,16
