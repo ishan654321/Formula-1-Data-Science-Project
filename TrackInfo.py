@@ -59,7 +59,7 @@ def tracks():
     """, unsafe_allow_html=True)
 
     st.markdown('**Circuit de Monaco**')
-    st.markdown('<img src="https://media.formula1.com/image/upload/f_auto/q_auto/v1677244984/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Monoco_Circuit.png.transform/4col/image.png" width="700" height="400"/>',unsafe_allow_html=True)
+    st.markdown('<img src="https://mclaren.bloomreach.io/cdn-cgi/image/format=webp,quality=80/delivery/resources/content/gallery/mclaren-racing/legacy/static_maps/monaco-sectors.png" width="700" height="400"/>',unsafe_allow_html=True)
     st.write("""
     <div style="background-color: #6D1B07; padding: 2px;">
         <span style="color: white;">\n\n Country: Monaco\n\nLength of Circuit : 3.337 km\n\n First Race : 1950\n\n Number of laps : 78\n\n Lap record : 1:12.909 Lewis Hamilton (2021)\n\n Most Wins Driver : Ayrton Senna (6)\n\n Most Wins Constructor : McLaren (15)</span>
