@@ -1,6 +1,7 @@
 import streamlit as st
 def tracks():
     st.subheader('Racing Track Information')
+    st.write('All this PNGs are taken from Formula 1 official website.(Monaco track image is taken form mclaren official website.)')
     st.write('---')
     st.markdown('**Bahrain-Sakhir Circuit**')
     st.markdown('<img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Bahrain_Circuit.png.transform/9col/image.png" width="700" height="400"/>',unsafe_allow_html=True)
