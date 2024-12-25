@@ -43,7 +43,7 @@ def tracks():
     """, unsafe_allow_html=True)
 
     st.markdown('**Miami International Autodrome**')
-    st.markdown('<img src="https://media.formula1.com/image/upload/f_auto/q_auto/v1677244985/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Miami_Circuit.png.transform/7col/image.png" width="700" height="400"/>',unsafe_allow_html=True)
+    st.markdown('<img src="https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/2018-redesign-assets/Circuit%20maps%2016x9/Monaco_Circuit" width="700" height="400"/>',unsafe_allow_html=True)
     st.write("""
     <div style="background-color: #6D1B07; padding: 2px;">
         <span style="color: white;">\n\n Country: United States\n\nLength of Circuit : 5.412 km\n\n First Race : 2022\n\n Number of laps : 57\n\n Lap record : 1:29.708 Max Verstappen (2023)\n\n Most Wins Driver : Max Verstappen (2)\n\n Most Wins Constructor : Red Bull (2)</span>
