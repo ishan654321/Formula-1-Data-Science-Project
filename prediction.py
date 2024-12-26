@@ -65,7 +65,7 @@ def predict_points(data):
     #     <span style="color: white;">Note: Predicting sports results are not always accurate. I have used linear regression model to predict the data with the use of last 3 years of points data, driver skill rating, car rating and constructor strategy.</span>
     # </div>
     # """, unsafe_allow_html=True)
-    def predict_points(data):
+def predict_points(data):
     st.header('Prediction: F1 Driver Points for 2024 Season')
 
     # Selecting relevant features for prediction
