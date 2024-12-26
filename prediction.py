@@ -87,6 +87,11 @@ def predict_points(data):
         <span style="color: white;">Note: Predicting sports results are not always accurate. I have used a Lasso regression model(Regularization) to predict the data with the use of the last 3 years of points data, driver skill rating, car rating, and constructor strategy.</span>
     </div>
     """, unsafe_allow_html=True)
+    st.write("""
+    <div style="background-color: black; padding: 10px;">
+        <span style="color: white;">This prediction turn out to be wrong and versteppen won the Championship.</span>
+    </div>
+    """, unsafe_allow_html=True)
 #---------------------------------------------------------------------------------------
     st.write('---------------------------------------------------------------------------------------')
     st.header('Prediction: F1 Constructor Points for 2024 Season')
@@ -111,7 +116,7 @@ def predict_points(data):
     
     st.pyplot(plt)
     
-    st.markdown('<img src="https://media.formula1.com/content/dam/fom-website/manual/Misc/TeamByTeam2023/red-bull-tbt-2023.jpg" width="700" height="400"/>',unsafe_allow_html=True)
+    st.markdown('<img src="https://mclaren.bloomreach.io/cdn-cgi/image/width=680,height=460,fit=crop,quality=80,format=webp/delivery/resources/content/gallery/mclaren-racing/formula-1/2024/schedule/abu-dhabi-grand-prix/race/report/report_0010_gp2424_193025_67a4774.jpg" width="700" height="400"/>',unsafe_allow_html=True)
 
     st.write("""
     <div style="background-color: black; padding: 10px;">
