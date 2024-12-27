@@ -10,20 +10,6 @@ import matplotlib.pyplot as plt
 # Load data for prediction
 data_constructor=pd.read_csv(r'ConstructorPrediction.csv')
 comparison_df=pd.read_csv(r'regression_comparison.csv')
-def predict_points(data):
-
-    st.header('Prediction: F1 Driver Points for 2024 Season')
-
-    # Selecting relevant features for prediction
-    X = data[['driverRating', 'carRating','constructorStrategy' ,'2021_points', '2022_points']]
-    y = data['2023_points']
-
-    # Splitting data into training and testing sets
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-    # Creating and fitting the model
-    model = LinearRegression()
-    model.fit(X_train, y_train)
     
 def predict_points(data):
     st.header('Prediction: F1 Driver Points for 2024 Season')
