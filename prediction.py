@@ -34,7 +34,7 @@ def predict_points(data):
     # Predicting on the test set
     predictions = model.predict(X_test_scaled)
     mse = mean_squared_error(y_test, predictions)  
-    st.write(mse)
+    st.write("mse:",mse)
     # Predicting 2024 points for all drivers
     predicted_2024_points = model.predict(X_scaled)
 
