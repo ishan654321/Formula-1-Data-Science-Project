@@ -91,10 +91,15 @@ elif tracks_button:
     button_clicked = True
     st.button("Back to Home")
     tracks()
+# elif prediction_button:
+#     button_clicked = True
+#     st.button("Back to Home")
+#     predict_points(data)
 elif prediction_button:
     button_clicked = True
     st.button("Back to Home")
-    predict_points(data)
+    data = pd.read_csv("DriverPrediction.csv")
+    predict_points(data.copy())
 elif tableau_viz_button:
     button_clicked = True
     st.button("Back to Home")
