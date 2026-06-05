@@ -62,76 +62,75 @@ local_css("style.css")
 st.markdown("""
     <h1 style='color: red; font-size: 46px;'>🏎️F1 Analysis and Predictions🏎️</h1>
 """, unsafe_allow_html=True)
-# Boolean variable to track button click
-button_clicked = False
 
-# Load data for prediction
-data = pd.read_csv(r'DriverPrediction.csv')
-# Sidebar layout for buttons
+
+
+def set_page(page_name):
+    st.session_state["page"] = page_name
+
+if "page" not in st.session_state:
+    st.session_state["page"] = "Home"
+
 with st.sidebar:
     st.header('Navigation')
-    about_button=st.button('About Formula 1')
-    tracks_button=st.button('Track Information')
-    prediction_button = st.button("Prediction")
-    drivers_button=st.button("Drivers")
-    analysis_button = st.button("Pitstop & Laptime Analysis")
-    tableau_viz_button=st.button('Tableau Dashboard')
-    constructor_button=st.button('Constructor Analysis')
-    historical_button=st.button('Historical Analysis')
-    yearlyanalysis_button=st.button('2023 Analysis')
-    references_button=st.button('References')
+    st.button('Home', on_click=set_page, args=("Home",))
+    st.button('About Formula 1', on_click=set_page, args=("About Formula 1",))
+    st.button('Track Information', on_click=set_page, args=("Track Information",))
+    st.button("Prediction", on_click=set_page, args=("Prediction",))
+    st.button("Drivers", on_click=set_page, args=("Drivers",))
+    st.button("Pitstop & Laptime Analysis", on_click=set_page, args=("Pitstop & Laptime Analysis",))
+    st.button('Tableau Dashboard', on_click=set_page, args=("Tableau Dashboard",))
+    st.button('Constructor Analysis', on_click=set_page, args=("Constructor Analysis",))
+    st.button('Historical Analysis', on_click=set_page, args=("Historical Analysis",))
+    st.button('2023 Analysis', on_click=set_page, args=("2023 Analysis",))
+    st.button('References', on_click=set_page, args=("References",))
 
-# Show result based on button click
-if analysis_button:
-    button_clicked = True
-    st.button("Back to Home")
+page = st.session_state["page"]
+
+if page == "Pitstop & Laptime Analysis":
+    st.button("Back to Home", on_click=set_page, args=("Home",))
     analyze_pitstop_duration()
     lap_analysis()
-elif tracks_button:
-    button_clicked = True
-    st.button("Back to Home")
+
+elif page == "Track Information":
+    st.button("Back to Home", on_click=set_page, args=("Home",))
     tracks()
-# elif prediction_button:
-#     button_clicked = True
-#     st.button("Back to Home")
-#     predict_points(data)
-elif prediction_button:
-    button_clicked = True
-    st.button("Back to Home")
+
+elif page == "Prediction":
+    st.button("Back to Home", on_click=set_page, args=("Home",))
     data = pd.read_csv("DriverPrediction.csv")
     predict_points(data.copy())
-elif tableau_viz_button:
-    button_clicked = True
-    st.button("Back to Home")
+
+elif page == "Tableau Dashboard":
+    st.button("Back to Home", on_click=set_page, args=("Home",))
     tableau_viz()
-elif constructor_button:
-    button_clicked = True
-    st.button("Back to Home")
+
+elif page == "Constructor Analysis":
+    st.button("Back to Home", on_click=set_page, args=("Home",))
     constructor_analysis()
-elif historical_button:
-    button_clicked = True
-    st.button("Back to Home")
+
+elif page == "Historical Analysis":
+    st.button("Back to Home", on_click=set_page, args=("Home",))
     historical()
-elif drivers_button:
-    button_clicked = True
-    st.button("Back to Home")
+
+elif page == "Drivers":
+    st.button("Back to Home", on_click=set_page, args=("Home",))
     drivers()
-elif yearlyanalysis_button:
-    button_clicked=True
-    st.button("Back to Home")
+
+elif page == "2023 Analysis":
+    st.button("Back to Home", on_click=set_page, args=("Home",))
     yearanalysis()
-elif about_button:
-    button_clicked=True
-    st.button("Back To Home")
+
+elif page == "About Formula 1":
+    st.button("Back to Home", on_click=set_page, args=("Home",))
     about()
-elif references_button:
-    button_clicked=True
-    st.button("Back To Home")
+
+elif page == "References":
+    st.button("Back to Home", on_click=set_page, args=("Home",))
     references()
 
 # If no button is clicked, display home page content
-if not button_clicked:
-
+if page == "Home":
     # Header section with enhanced styling
     st.write("""
         <div style="background-color: #6D1B07; padding: 20px;">
