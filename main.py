@@ -1,6 +1,5 @@
 import os
 
-
 os.environ["OMP_NUM_THREADS"] = "1"
 os.environ["OPENBLAS_NUM_THREADS"] = "1"
 os.environ["MKL_NUM_THREADS"] = "1"
@@ -8,15 +7,22 @@ os.environ["VECLIB_MAXIMUM_THREADS"] = "1"
 os.environ["NUMEXPR_NUM_THREADS"] = "1"
 
 import streamlit as st
+from PIL import Image
 from streamlit_gtag import st_gtag
 
-# Initialize Google Analytics 
+# 1. SET PAGE CONFIG FIRST
+img = Image.open(r'formula1projectlogo.jfif')
+st.set_page_config(page_title='Formula 1 Data Science', page_icon=img)
+
+# 2. THEN INITIALIZE GOOGLE ANALYTICS
 st_gtag(
     gtag_id="G-C1YTR6HZVD", 
     config={
         "send_page_view": True
     }
 )
+
+# 3. THEN IMPORT YOUR CUSTOM MODULES
 from analysis import analyze_pitstop_duration, lap_analysis
 from prediction import predict_points
 from visualization import tableau_viz
@@ -24,7 +30,6 @@ from constructor_analysis import constructor_analysis
 from Historical import historical
 from TrackInfo import tracks
 import pandas as pd
-from PIL import Image
 from drivers_analysis import drivers
 from yearanalysis import yearanalysis
 from About import about
