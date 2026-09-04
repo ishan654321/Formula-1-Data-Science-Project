@@ -6,3 +6,4 @@ scikit-learn==1.5.2
 matplotlib==3.9.2
 pillow==10.4.0
 plotly
+streamlit-google-analytics-tag
