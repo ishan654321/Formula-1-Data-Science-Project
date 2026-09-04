@@ -10,7 +10,9 @@ st.set_page_config(page_title='Formula 1 Data Science', page_icon=img)
 import streamlit_analytics2 as streamlit_analytics
 
 # 3. WRAP ALL APP LOGIC & WIDGETS IN THE TRACKER BLOCK
-with streamlit_analytics.track():
+analytics_password = st.secrets.get("ANALYTICS_PASSWORD", "admin")
+
+with streamlit_analytics.track(unsafe_password=analytics_password):
 
     # SET YOUR ENVIRONMENT VARIABLES
     os.environ["OMP_NUM_THREADS"] = "1"
