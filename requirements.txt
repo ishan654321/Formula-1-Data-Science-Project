@@ -7,3 +7,4 @@ matplotlib==3.9.2
 pillow==10.4.0
 plotly
 streamlit-google-analytics-tag
+streamlit-analytics2
