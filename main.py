@@ -1,4 +1,13 @@
 import os
+from streamlit_gtag import st_gtag
+
+# Initialize Google Analytics 
+st_gtag(
+    gtag_id="G-C1YTR6HZVD", 
+    config={
+        "send_page_view": True
+    }
+)
 
 os.environ["OMP_NUM_THREADS"] = "1"
 os.environ["OPENBLAS_NUM_THREADS"] = "1"
