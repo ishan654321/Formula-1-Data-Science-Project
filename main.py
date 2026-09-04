@@ -1,28 +1,28 @@
 import os
+import streamlit as st
+from PIL import Image
 
+# 1. PAGE CONFIG MUST BE THE VERY FIRST STREAMLIT COMMAND
+img = Image.open('formula1projectlogo.jfif')
+st.set_page_config(page_title='Formula 1 Data Science', page_icon=img)
+
+# 2. SET YOUR ENVIRONMENT VARIABLES
 os.environ["OMP_NUM_THREADS"] = "1"
 os.environ["OPENBLAS_NUM_THREADS"] = "1"
 os.environ["MKL_NUM_THREADS"] = "1"
 os.environ["VECLIB_MAXIMUM_THREADS"] = "1"
 os.environ["NUMEXPR_NUM_THREADS"] = "1"
 
-import streamlit as st
-from PIL import Image
+# 3. IMPORT GTAG AND INITIALIZE IT
 from streamlit_gtag import st_gtag
-
-# 1. SET PAGE CONFIG FIRST
-img = Image.open(r'formula1projectlogo.jfif')
-st.set_page_config(page_title='Formula 1 Data Science', page_icon=img)
-
-# 2. THEN INITIALIZE GOOGLE ANALYTICS
 st_gtag(
-    gtag_id="G-C1YTR6HZVD", 
+    gtag_id="G-idontwanttodisclose", 
     config={
         "send_page_view": True
     }
 )
 
-# 3. THEN IMPORT YOUR CUSTOM MODULES
+# 4. IMPORT CUSTOM MODULES AFTER PAGE CONFIG
 from analysis import analyze_pitstop_duration, lap_analysis
 from prediction import predict_points
 from visualization import tableau_viz
@@ -35,10 +35,7 @@ from yearanalysis import yearanalysis
 from About import about
 from references import references
 
-#st.set_page_config(layout="wide")
-
-img=Image.open(r'formula1projectlogo.jfif')
-st.set_page_config(page_title='Formula 1 Data Science',page_icon=img)
+# --- YOUR APP STYLING STARTS HERE ---
 
 page_bg_img="""
 <style>
